@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import "./Header.scss";
 import { Link } from "react-router-dom";
-import userImg from "../../images/user.png";
 import { useDispatch } from "react-redux";
 import { fetchAsyncMovies } from "../../redux/movies/movieSlice";
 function Header() {
