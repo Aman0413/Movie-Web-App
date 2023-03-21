@@ -26,7 +26,12 @@ function MovieDetail() {
   return (
     <div className="MovieDetail">
       {Object.keys(data).length === 0 ? (
-        <div>...Loading</div>
+        // <div>...Loading</div>
+
+        <div class="loader">
+          <span class="loader-text">loading</span>
+          <span class="load"></span>
+        </div>
       ) : (
         <>
           <div className="left-section">
@@ -74,7 +79,6 @@ function MovieDetail() {
           </div>
         </>
       )}
-      ;
     </div>
   );
 }

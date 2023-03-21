@@ -17,13 +17,16 @@ function Header() {
         <div className="logo">Movie App</div>
       </Link>
       <div className="search">
-        <input
-          type="text"
-          placeholder="Search here"
-          onChange={(e) => {
-            setSearchKey(e.target.value);
-          }}
-        />
+        <div class="textInputWrapper">
+          <input
+            placeholder="Search Here"
+            type="text"
+            class="textInput"
+            onChange={(e) => {
+              setSearchKey(e.target.value);
+            }}
+          />
+        </div>
         <button type="submit" onClick={handleClick}>
           Search
         </button>
