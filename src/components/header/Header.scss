@@ -18,18 +18,11 @@
     align-items: center;
     gap: 10px;
 
-    //  input {
-    //    width: 200px;
-    //    padding-inline: 10px;
-    //    padding-block: 5px;
-    //    border-radius: 5px;
-    //  }
-
     .textInputWrapper {
       position: relative;
       width: 180px;
       margin: 12px 5px;
-      --accent-color: #1899d6;
+      --accent-color: rgb(76, 161, 175);
     }
 
     .textInputWrapper:before {
@@ -119,7 +112,7 @@
 
     button {
       appearance: button;
-      background-color: #1899d6;
+      background-color: rgb(76, 161, 175);
       border: solid transparent;
       border-radius: 10px;
       border-width: 0 0 4px;
@@ -134,7 +127,7 @@
       margin: 0;
       outline: none;
       overflow: visible;
-      padding: 8px 12px;
+      padding: 5px 12px;
       text-align: center;
       text-transform: uppercase;
       touch-action: manipulation;
@@ -148,7 +141,7 @@
 
     button:after {
       background-clip: padding-box;
-      background-color: #1cb0f6;
+      background-color: rgb(76, 161, 175);
       border: solid transparent;
       border-radius: 16px;
       border-width: 0 0 4px;
@@ -180,6 +173,17 @@
 
     button:active {
       padding-bottom: 10px;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    justify-content: center;
+    gap: 20px;
+    .search {
+      button {
+        font-size: 10px;
+        font-weight: 600;
+        padding: 5px 8px;
+      }
     }
   }
 }

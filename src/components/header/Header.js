@@ -14,7 +14,7 @@ function Header() {
   return (
     <div className="Header">
       <Link to="/">
-        <div className="logo">Movie App</div>
+        <div className="logo">Moviezz</div>
       </Link>
       <div className="search">
         <div class="textInputWrapper">

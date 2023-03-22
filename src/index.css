@@ -1,34 +1,39 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700&display=swap");
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 :root {
-  --primary-color: #0f171e;
-  --secondary-color: #1a242f;
+  --primary-color: rgb(76, 161, 175);
+  --secondary-color: #282726;
   --font-primary: #ffffff;
-  --font-secondary: #79b8f3;
+  --font-secondary: #282726;
 }
 body {
   margin: 0;
-  font-family:'Open Sans'BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: "Nunito", BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: var(--primary-color);
+  background: linear-gradient(
+    180deg,
+    rgba(76, 161, 175, 1) 22%,
+    rgba(137, 193, 202, 1) 51%,
+    rgba(196, 224, 229, 1) 95%
+  );
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
-a{
+a {
   text-decoration: none;
 }
-.container{
+.container {
   margin: 0 40px;
 }
